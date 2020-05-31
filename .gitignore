@@ -1,0 +1,22 @@
+*.html
+
+# Intellij
+.idea/
+*.iml
+*.iws
+*.jar
+/build/
+
+# Maven
+log/
+target/
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

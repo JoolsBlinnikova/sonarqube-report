@@ -1,0 +1,20 @@
+{
+  "properties": [
+    {
+      "name": "report.name",
+      "type": "java.lang.String",
+      "sourceType": "org.example.config.ConfigurationApp",
+      "description": "Name of the report."
+    },
+    {
+      "name": "token",
+      "type": "java.lang.String",
+      "sourceType": "org.example.config.ConfigurationApp",
+      "description": "Token from SonarQube."
+    },
+    {
+      "name": "sonarqube.link",
+      "type": "java.lang.String",
+      "description": "Description for sonarqube.link."
+    }
+  ] }
