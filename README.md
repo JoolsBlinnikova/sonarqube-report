@@ -1,7 +1,7 @@
 # sonarqube-report
 The application allows to generate a report in HTML format using data that was obtained using the SonarQube API.
 
-#What you’ll need
+# What you’ll need
  
  -	JDK 1.8 or later
  -	Maven 3.2+ 
