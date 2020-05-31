@@ -1,4 +1,5 @@
 # sonarqube-report
+The application allows to generate a report in HTML format using data that was obtained using the SonarQube API.
 
 #What you’ll need
  
@@ -7,7 +8,7 @@
  
  # How to build
  
- -	go to an application folder and add properties for connection to SonarQube server:
+ -	go to ./src/main/resources/application.properties and add properties for connection to SonarQube server:
   ```sh
  token=
  sonarqube.url=
@@ -16,7 +17,7 @@
  ```sh
  mvn clean install
  ```
- -	go to ./target and execute the following command using a terminal: 
+ -	go to ./target and execute the following command using a terminal, the project key must be specified as a command line argument: 
  ```sh
  java -jar sonar-1.0-SNAPSHOT.jar <project key>
  ```
